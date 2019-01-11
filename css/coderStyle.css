@@ -25,7 +25,7 @@ body {
 
 a {
     font-weight: 300;
-    color: #1565c0;
+    color: #007bff;
     text-decoration: none
 }
 
@@ -320,7 +320,7 @@ img {
 }
 
 .list ul li a:hover, .list ul li a:focus {
-    color: #1565c0
+    color: #007bff
 }
 
 .centered {
@@ -370,7 +370,7 @@ img {
 }
 
 .centered .about ul li a:hover, .centered .about ul li a:focus {
-    color: #1565c0
+    color: #007bff
 }
 
 @media only screen and (max-width:768px) {
@@ -426,7 +426,7 @@ img {
 }
 
 .navigation a:hover, .navigation a:focus {
-    color: #1565c0
+    color: #007bff
 }
 
 .navigation .navigation-title {
@@ -523,19 +523,20 @@ img {
     }
 
     .navigation .menu-button:hover, .navigation .menu-button:focus {
-        color: #1565c0
+        color: #007bff
     }
 }
 
-.container-fluid { max-width: 1200px; }
+.container-fluid { max-width: 1200px;}
 
 .card {
 	background: #fff;
-	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-	img {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	/* img {
 		width: 65%;
-	}
+	} */
 }
+
 
 [class*="row"] {
 	margin-bottom: 1em;
@@ -545,9 +546,9 @@ img {
 [class*="col-"] {
 	background: #efefef;
 	border: 1px solid #ddd;
-	padding-top: .75rem;
-	padding-bottom: .75rem;
-	width: 50%;
+	/* padding-top: .75rem; */
+	/* padding-bottom: .75rem; */
+	width: 100%;
 }
 
 
@@ -581,7 +582,7 @@ img {
 }
 
 .footer a {
-    color: #1565c0
+    color: #007bff
 }
 
 
