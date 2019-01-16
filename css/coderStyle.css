@@ -43,10 +43,18 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Lato, Helvetica, sans-serif;
     font-weight: 700;
     color: #000;
-    margin: 6.4rem 0 3.2rem
 }
 
+p, li {
+    font-family: Lato, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgba(119, 119, 119, 0.774)
+    
+}   
+
 h1 {
+
+    margin: 6.4rem 0 2.0rem;
     font-size: 3.2rem;
     line-height: 3.6rem
 }
@@ -78,11 +86,13 @@ h3 {
 @media only screen and (max-width:768px) {
     h3 {
         font-size: 2.2rem;
-        line-height: 2.6rem
+        line-height: 2.6rem;
     }
 }
 
 h4 {
+
+    margin: 5.0rem 0 0 0;
     font-size: 2.2rem;
     line-height: 2.6rem
 }
@@ -588,12 +598,21 @@ img {
 6. ABOUT SECTION
 --------------------------------- */
 
-/* .section{ padding: 100px 0 50px; } */
+ .section{ margin-bottom: 0px; } 
 
-.section .heading{ margin-bottom: 60px; }
+ 
+.margin-t-10{ margin-top: 10px; }
+
+.margin-t-50{ margin-top: 50px; }
+
+.margin-b-30{ margin-bottom: 30px; }
+
+.margin-b-50{ margin-bottom: 50px; }
+
+/* .section .heading{ margin-bottom: 100px; } */
 /* 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin-bottom: 20px; display: block; background: #007bff; } */
+    /* margin-bottom: 20px; display: block; background: #007bff; } */
 
 
 .radial-progress{ position: relative; max-width: 200px; margin: 0 auto;}
@@ -610,8 +629,6 @@ img {
 8. EDUCATION SECTION
 --------------------------------- */
 
-
-
 .education-wrapper{ position: relative; }
 
 .education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
@@ -621,36 +638,18 @@ img {
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(224,224,224, .1); background: #007bff; }
+	box-shadow: 0 0 0 8px #ccc; background: #007bff; }
 	
-/* 
-    .education-wrapper{ position: relative; overflow: hidden; text-align: center; }
+h2, h3, h5, h6, a, ul, li, img, inpot, button{ margin: 0; padding: 0; }
 
-    .education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: 50%;
-        margin-left: -1px; width: 2px; background: #ccc; }
-    
-    .education-wrapper .education{ width: 50%; clear: both; position: relative; margin-top: -30px; }
-    
-    .education-wrapper .education:first-child{ margin-top: 0; } 
-    
-    .education-wrapper .education.left{ float: left; padding-right: 50px; text-align: right; }
-    
-    .education-wrapper .education.right{ float: right; padding-left: 50px; text-align: left; }
-    
-.education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
-	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(224,224,224, .4); background: #007bff; }
-        
-    .education-wrapper .education.left:after{ right: -8px; }
-    
-    .education-wrapper .education.right:after{ left: -8px; } */
+h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
 
     /* ---------------------------------
 5. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #FAF5FC; }
+/* .experience-section{ background: #FAF5FC; } */
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; }
 
