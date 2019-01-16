@@ -632,7 +632,7 @@ img {
 .education-wrapper{ position: relative; }
 
 .education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
-	width: 2px; background: #ccc; }
+	width: 2px; background: #fafafa; }
 
 .education-wrapper .education{ position: relative; }
 
