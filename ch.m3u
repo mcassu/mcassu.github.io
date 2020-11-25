@@ -9,5 +9,5 @@ http://evpp.mm.uol.com.br/ne10/ne10-tvjornal-caruaru-video-web.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://gps.pezquiza.com/wp-content/uploads/2019/12/canal-peppa-pig-brasil.jpg" group-title="Kids", Peppa
 https://www.youtube.com/embed/Djj73Ul8EEc?autoplay=1
 
-#EXTINF:-1 tvg-logo="https://gps.pezquiza.com/wp-content/uploads/2019/12/canal-peppa-pig-brasil.jpg" group-title="Journal", RedeTv
-https://www.youtube.com/embed/oOZJOgTzDcw?autoplay=1
+#EXTINF:-1 tvg-logo="https://gps.pezquiza.com/wp-content/uploads/2019/12/canal-peppa-pig-brasil.jpg" group-title="Journal", RedeTv 
+plugin://plugin.video.youtube/play/?video_id=oOZJOgTzDcw
